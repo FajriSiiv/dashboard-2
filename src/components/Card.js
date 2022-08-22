@@ -6,7 +6,7 @@ const Card = ({ name, sosmed, follower, up, icon, id }) => {
   return (
     <div className="mb-[30px] row-span-1">
       <div
-        className={`flex flex-col justify-around py-4 items-center bg-darkM-cardBg w-[280px] h-[200px] mx-auto rounded-lg border-t-4 border-t-${sosmed} lg:w-auto`}
+        className={`flex flex-col justify-around py-4 items-center bg-darkM-cardBg w-[280px] h-[200px] mx-auto rounded-lg border-t-4 border-t-sky-300 lg:w-auto`}
       >
         <div className="icon flex items-center">
           <img src={icon} alt="facebook" className="object-contain w-4 h-4" />
